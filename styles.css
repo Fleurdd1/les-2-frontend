@@ -17,16 +17,29 @@ nav {
 }
 
 ul {
+    list-style-type: none;
+    list-style-position: inherit;
+    color: white;
+    font-weight: 600;
+    text-align: end;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: white;
-    list-style-type: none;
-    list-style-position: inherit;
-    font-weight: 600;
-    text-align: end;
-    text-decoration: none;
+}
 
+a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+a:hover {
+    font-size: 16px;
+    color: #DC9E82;
+    text-decoration: none;
 }
 
 
@@ -34,6 +47,7 @@ ul {
     display: flex;
     flex-basis: 40px;
     justify-content: flex-start;
+    padding: 40px
 }
 
 .link {
